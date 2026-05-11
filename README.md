@@ -3,7 +3,9 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5126d84f-d80b-4fb5-bcc1-e307c7fe1361" /> 
 
-<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/c73924bf-1e60-4ede-99f6-7875c3c01c5f" /> 
+<img width="2553" height="1040" alt="image" src="https://github.com/user-attachments/assets/7429eb78-4a8d-49af-8fdc-48231a64a902" /> 
+
+<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/c73924bf-1e60-4ede-99f6-7875c3c01c5f" />  
 
 ```
 Sistema desarrollado en Java SE utilizando consola en IntelliJ IDEA.
