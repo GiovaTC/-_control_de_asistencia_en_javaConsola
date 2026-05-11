@@ -49,7 +49,18 @@ public class ControlAsistencia {
         } while (opcion != 4);
     }
 
-    public static void registrarEstudiante() {}
+    public static void registrarEstudiante() {
+
+        System.out.println("Ingresa nombre del estudiante: ");
+        String nombre = sc.nextLine();
+
+        estudiantes[contador] = nombre;
+        asistencia[contador] = false;
+
+        contador++;
+        System.out.println("Estudiante registrado correctamente!");
+    }
+    
     public static void marcarAsistencia() {}
     public static void mostrarAsistencia() {}
-}   
+}
