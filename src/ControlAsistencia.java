@@ -82,7 +82,25 @@ public class ControlAsistencia {
         }
     }
 
-    public static void mostrarAsistencia() {}
+    public static void mostrarAsistencia() {
+
+        if (contador == 0) {
+            System.out.println("No hay estudiantes!");
+            return;
+        }
+
+        System.out.println("\\n===== LISTA DE ASISTENCIA =====");
+
+        for (int i = 0; i < contador; i++) {
+
+            System.out.println(
+                            i + " - " +
+                            estudiantes[i] +
+                            " -> " +
+                            (asistencia[i] ? "Presente" : "Ausente")
+            );
+        }
+    }   
 
     public static void mostrarLista() {}
 }
