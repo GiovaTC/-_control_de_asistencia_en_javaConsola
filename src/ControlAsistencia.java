@@ -100,7 +100,15 @@ public class ControlAsistencia {
                             (asistencia[i] ? "Presente" : "Ausente")
             );
         }
-    }   
+    }
 
-    public static void mostrarLista() {}
-}
+    public static void mostrarLista() {
+
+        System.out.println("\n===== ESTUDIANTES =====");
+
+        for (int i = 0; i < contador; i++) {
+
+            System.out.println(i + ". " + estudiantes[i]);
+        }
+    }
+}   
