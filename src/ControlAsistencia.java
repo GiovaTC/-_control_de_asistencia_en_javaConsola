@@ -60,7 +60,29 @@ public class ControlAsistencia {
         contador++;
         System.out.println("Estudiante registrado correctamente!");
     }
-    
-    public static void marcarAsistencia() {}
+
+    public static void marcarAsistencia() {
+
+        if (contador == 0) {
+            System.out.println("No hay estudiantes registrados!");
+            return;
+        }
+
+        mostrarLista();
+
+        System.out.print("Seleccione numero del estudiante: ");
+        int indice = sc.nextInt();
+
+        if (indice >= 0 && indice < contador) {
+            asistencia[indice] = true;
+            System.out.println("Asistencia registrada.");
+
+        } else {
+            System.out.println("Indice invalido!");
+        }
+    }
+
     public static void mostrarAsistencia() {}
+
+    public static void mostrarLista() {}
 }
