@@ -111,4 +111,4 @@ public class ControlAsistencia {
             System.out.println(i + ". " + estudiantes[i]);
         }
     }
-}   
+}
