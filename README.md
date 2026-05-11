@@ -1,7 +1,9 @@
 # -_control_de_asistencia_en_javaConsola :.
 📘 Control de Asistencia en Java (Consola):
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5126d84f-d80b-4fb5-bcc1-e307c7fe1361" />  
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5126d84f-d80b-4fb5-bcc1-e307c7fe1361" /> 
+
+<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/c73924bf-1e60-4ede-99f6-7875c3c01c5f" /> 
 
 ```
 Sistema desarrollado en Java SE utilizando consola en IntelliJ IDEA.
